@@ -14,6 +14,8 @@ class GACodeField extends TextField
     }
 
     /**
+     * Simple validation to make sure the input matches the expected pattern.
+     *
      * @param $validator
      * @return bool
      */

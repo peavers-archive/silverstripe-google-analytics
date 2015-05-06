@@ -47,7 +47,7 @@ class GAInjector extends Extension
 {
 
     /**
-     * Load either UA or GTM script depending on what the user has decided
+     * Load either UA or GTM script depending on what the user has decided and inject the code into the javascript
      */
     public function onBeforeInit()
     {
