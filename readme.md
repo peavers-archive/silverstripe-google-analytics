@@ -11,7 +11,7 @@ Very basic module which was designed to load Google Analytics in a standard mann
 
 ### Composer
 
-Make sure you've removed all Google Analytics code from your template/ 
+Make sure you've removed all Google Analytics code from your template
 
 Ideally composer will be used to install this module. 
 ```composer require "moe/google-analytics:@stable"```
