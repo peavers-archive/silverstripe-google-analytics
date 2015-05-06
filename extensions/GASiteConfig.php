@@ -7,8 +7,8 @@ class GASiteConfig extends DataExtension
 {
 
     private static $db = array(
-        'AnalyticType' => 'Varchar(255)',
-        'GoogleCode'   => 'Varchar(255)',
+        'AnalyticType' => 'Varchar(5)',
+        'GoogleCode'   => 'Varchar(15)',
     );
 
     public function updateCMSFields(FieldList $fields)
