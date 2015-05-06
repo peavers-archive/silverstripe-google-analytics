@@ -1,0 +1,10 @@
+---
+Name: google-analytics
+---
+SiteConfig:
+  extensions:
+   - GASiteConfig
+
+ContentController:
+  extensions:
+   - GAInjector
