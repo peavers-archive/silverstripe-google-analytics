@@ -21,7 +21,12 @@ class GACodeField extends TextField
      */
     public function validate($validator)
     {
-        $parts = explode("-", $this->value);
+
+        if (is_null($this->value)) {
+            return true;
+        } else {
+            $parts = explode("-", $this->value);
+        }
 
         if ($parts[0] === "GTM" && mb_strlen($parts[1]) === 6) {
             return true;
