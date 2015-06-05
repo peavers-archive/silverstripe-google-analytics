@@ -1,5 +1,5 @@
 {
-  "name": "moe/google-analytics",
+  "name": "peavers/google-analytics",
   "description": "Very basic module which was designed to load Google Analytics in a standard manner on all websites.",
   "keywords": [
     "google",

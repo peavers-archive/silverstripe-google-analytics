@@ -21,7 +21,7 @@ class GACodeField extends TextField
      */
     public function validate($validator)
     {
-
+        // No value set so accept
         if (empty($this->value)) {
             return true;
         } else {
